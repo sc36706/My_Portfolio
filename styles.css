@@ -1,0 +1,898 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/clouds.jpg);
+    background-color: #eef3f9;
+    background-repeat: repeat-y;
+    color: #0b1f3a;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cover {
+    margin: auto;
+    width: 90%;
+    border: 1px solid #003;
+    background-image: linear-gradient(to bottom, #ffffff, #cde4ff);
+}
+
+header {
+    background-color: #1f4e79;
+    color: #ffffff;
+    background-image: url(images/Logo.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: contain;
+    line-height: 500%;
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
+
+header h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    margin: 0;
+    text-indent: 3em;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.1em;
+}
+
+nav li {
+    border-bottom: 1px solid #1f4e79;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.25em 0.5em;
+    transition: color 0.5s ease, background-color 0.5s ease;
+}
+
+nav a:link,
+nav a:visited {
+    color: #1f4e79;
+}
+
+nav a:hover {
+    color: #eb6912;
+}
+
+main {
+    padding: 1px 20px 20px 20px;
+    display: block;
+    padding-left: 30px;
+    background-color: #ffffff;
+    overflow: auto;
+}
+
+img {
+    max-width: auto;
+    height: auto;
+    display: block;
+}
+
+#webdesignimg {
+    background-image: url(images/Web\ Design.jpg);
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+}
+
+#Okinawaimg {
+    background-image: url(images/Okinawa.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#Lab1img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Lab\ 1.png);
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Lab1img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Lab2img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Lab\ 2.png);
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Lab2img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Assignment2img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Assignment\ 2.png);
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Assignment2img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Lab3img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Lab\ 3.png);
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Lab3img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Assignment3img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Assignment\ 3.png);
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Assignment3img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Lab4img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Lab\ 4.png);
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Lab4img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Assignment4img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Assignment\ 4.png);
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Assignment4img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Lab5img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Lab\ 5.png);
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Lab5img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Assignment5img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Assignment\ 5.png);
+    height: 400px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Assignment5img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Lab6img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Lab\ 6.png);
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Lab6img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Assignment6img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Assignment\ 6.png);
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Assignment6img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Lab7img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Lab\ 7.png);
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Lab7img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Assignment7img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Assignment\ 7.png);
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Assignment7img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Lab8img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Lab\ 8.png);
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Lab8img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Assignment8img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Assignment\ 8.png);
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Assignment8img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Lab9img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Lab\ 9.png);
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Lab9img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Assignment9img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Assignment\ 9.png);
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Assignment9img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Lab10img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Lab\ 10.png);
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Lab10img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+#Assignment10img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-image: url(images/Assignment\ 10.png);
+    height: 400px;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#Assignment10img:hover {
+    transform: translateY(-5px) scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    background-color: #1f4e79;
+    text-align: center;
+    font-size: 75%;
+    padding: 1em;
+    color: #ffffff;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: italic;
+    border-radius: 0 0 20px 20px;
+}
+
+footer a {
+    color: #ffffff;
+}
+
+h1 {
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+h2 {
+    color: #1f4e79;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    text-shadow: 1px 1px 1px #666;
+}
+
+h3 {
+    color: #074da8;
+}
+
+ul {
+    list-style-type: square;
+}
+
+strong {
+    color: #2e6da4;
+}
+
+table {
+    border: 2px solid #1f4e79;
+    border-collapse: collapse;
+    margin: auto;
+    max-width: 60%;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: right;
+    color: #2e6da4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+td,
+th {
+    text-align: center;
+    padding: 0.5em;
+    border: 2px solid #1f4e79;
+}
+
+iframe {
+    margin: 0 auto;
+    width: 450px;
+    display: block;
+    max-width: 100%;
+}
+
+form {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+input,
+textarea {
+    margin-bottom: 1.3em;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.projects-column {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 1rem 1.5rem;
+    background-color: #f9f9f9;
+}
+
+.projects-column summary {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0.5rem 0;
+    margin-bottom: 0.5rem;
+}
+
+.projects-column summary:hover {
+    color: #555;
+}
+
+summary {
+    color: #074da8;
+}
+
+#cover {
+    margin: auto;
+    width: 80%;
+    display: grid;
+    background-image: linear-gradient(to bottom, #ffffff, #cde4ff);
+    border: 1px solid #003;
+    box-shadow: 3px 3px 3px #333;
+    grid-template-columns: 190px auto;
+    grid-template-rows: auto;
+}
+
+header {
+    grid-row: 1;
+    grid-column: 1 / 3;
+}
+
+nav {
+    grid-row: 2;
+    grid-column: 1 / 2;
+}
+
+main {
+    grid-row: 2;
+    grid-column: 2 / 3;
+}
+
+footer {
+    grid-row: 3;
+    grid-column: 1 / 3;
+}
+
+nav {
+    text-align: left;
+    padding-left: 1em;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: column;
+    padding-top: 1em;
+}
+
+nav li {
+    border-bottom: 0;
+}
+
+.skills-table {
+    width: 90%;
+    margin: 1em auto;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    border: none;
+}
+
+.skills-table caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #1f4e79;
+    padding: 0.5em;
+    text-align: left;
+}
+
+.skills-table th {
+    background-color: #1f4e79;
+    color: #ffffff;
+    padding: 0.75em;
+    border: none;
+}
+
+.skills-table td {
+    border: 1px solid #cde4ff;
+    padding: 0.75em;
+    text-align: left;
+}
+
+/* removed skills-table tr:nth-child(even) td */
+
+.skills-table tr:hover td {
+    background-color: #e1ecf7;
+    transition: background-color 0.2s ease;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+    margin: 2em 0;
+    align-items: start;
+}
+
+.skill-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1em 1.5em 1.5em 1.5em;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #1f4e79;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.skill-card h3 {
+    margin-top: 0.3em;
+    border-bottom: 2px solid #cde4ff;
+    padding-bottom: 0.4em;
+    color: #074da8;
+}
+
+.skill-card ul {
+    padding-left: 1.2em;
+    margin: 0.5em 0 0 0;
+}
+
+.skill-card li {
+    margin-bottom: 0.3em;
+    line-height: 1.5;
+}
+
+.video-wrapper {
+    max-width: 700px;
+    margin: 2em auto;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.2);
+}
+
+.video-wrapper iframe {
+    display: block;
+    width: 100%;
+    height: 350px; /* fixed height, no aspect-ratio */
+    border: 0;
+}
+
+.goal-callout {
+    border-left: 4px solid #1f4e79;
+    background-color: #f0f6fc;
+    padding: 1em 1.5em;
+    border-radius: 0 8px 8px 0;
+    margin: 1.5em 0;
+}
+
+.goal-callout h3 {
+    margin-top: 0.2em;
+}
+
+.goal-callout p {
+    margin-bottom: 0.3em;
+}
+
+.goals-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2em;
+    margin: 2em 0;
+    align-items: start;
+}
+
+.goals-grid details {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 0.8em 1.2em 1em 1.2em;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #074da8;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.goals-grid details:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.goals-grid summary {
+    font-weight: bold;
+    font-size: 1.1em;
+    color: #074da8;
+    padding: 0.4em 0;
+}
+
+.goals-grid summary:hover {
+    color: #eb6912;
+}
+
+.goals-grid ul {
+    margin: 0.8em 0 0 0;
+    padding-left: 1.2em;
+}
+
+.goals-grid li {
+    margin-bottom: 0.4em;
+    line-height: 1.5;
+}
+
+.about-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.2em 2em 1.5em 2em;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #1f4e79;
+    margin: 1.5em 0;
+}
+
+.about-card h3 {
+    margin-top: 0.3em;
+    color: #074da8;
+    border-bottom: 2px solid #cde4ff;
+    padding-bottom: 0.4em;
+}
+
+.about-card p {
+    line-height: 1.6;
+    margin-bottom: 0.8em;
+}
+
+.about-intro {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    gap: 2em;
+    align-items: center;
+}
+
+.about-photo {
+    background-image: url(images/Okinawa.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 280px;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-photo:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.2em;
+    margin: 2em 0;
+    align-items: start;
+}
+
+.contact-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.2em 1.5em 1.5em 1.5em;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #1f4e79;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.contact-card h3 {
+    margin-top: 0.3em;
+    color: #074da8;
+    border-bottom: 2px solid #cde4ff;
+    padding-bottom: 0.4em;
+    margin-bottom: 0.8em;
+}
+
+.contact-card .card-label {
+    color: #1f4e79;
+    font-weight: bold;
+    font-size: 0.9em;
+    margin-bottom: 0.2em;
+    margin-top: 0.8em;
+}
+
+.contact-card p {
+    margin: 0.2em 0;
+    line-height: 1.4;
+}
+
+.contact-card .card-note {
+    color: #666;
+    font-size: 0.85em;
+    font-style: italic;
+    margin-top: 0.8em;
+}
+
+.contact-card a {
+    color: #074da8;
+    text-decoration: none;
+}
+
+.contact-card a:hover {
+    color: #eb6912;
+    text-decoration: underline;
+}
+
+/* Form card */
+
+.form-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5em 2em 2em 2em;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    border-top: 4px solid #1f4e79;
+    margin: 2em 0;
+}
+
+.form-card h3 {
+    margin-top: 0.3em;
+    color: #074da8;
+    border-bottom: 2px solid #cde4ff;
+    padding-bottom: 0.4em;
+    margin-bottom: 0.8em;
+}
+
+.form-card form {
+    display: block;
+    width: 100%;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1em;
+}
+
+.form-field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.form-field label {
+    color: #1f4e79;
+    font-weight: bold;
+    margin-bottom: 0.3em;
+    font-size: 0.95em;
+}
+
+.form-field input,
+.form-field textarea {
+    padding: 0.6em 0.8em;
+    border: 1px solid #cde4ff;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 0;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+    border-color: #1f4e79;
+}
+
+.form-card input[type="submit"] {
+    background-color: #1f4e79;
+    color: #ffffff;
+    border: none;
+    padding: 0.7em 2em;
+    border-radius: 6px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    width: auto;
+}
+
+.form-card input[type="submit"]:hover {
+    background-color: #eb6912;
+    transform: translateY(-1px);
+}
+
+#charCount {
+    color: #666;
+    font-size: 0.85em;
+    margin-top: 0.4em;
+    display: block;
+}
+
+@media (max-width: 1020px) {
+
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .about-intro {
+        grid-template-columns: 1fr;
+    }
+
+    .about-photo {
+        min-height: 220px;
+    }
+
+    .goals-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    #cover {
+        display: block;
+        width: 90%;
+        box-shadow: none;
+    }
+
+    nav {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    nav ul {
+        display: block;
+        padding-top: 0;
+    }
+
+    nav li {
+        border-bottom: 1px solid #1f4e79;
+    }
+}

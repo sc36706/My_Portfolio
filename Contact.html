@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Steven Cowart - Contact</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" href="images/Logo.png" type="image/png">
+    </head>
+ 
+    <body>
+        <div id="cover">
+    <header>
+        <h1>Steven Cowart</h1>
+    </header>
+ 
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li> &nbsp; &nbsp;
+            <li><a href="about.html">About</a></li> &nbsp; &nbsp;
+            <li><a href="projects.html">Projects</a></li> &nbsp; &nbsp;
+            <li><a href="Technical Skills.html">Technical Skills</a></li> &nbsp; &nbsp; 
+            <li><a href="Goals.html">Goals</a></li> &nbsp; &nbsp;
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+ 
+    <main>
+ 
+        <h2>Get in Touch</h2>
+ 
+        <p>
+            Thanks for stopping by! Feel free to reach out using any of the methods below — 
+            I'm always open to networking, internship opportunities, and professional connections.
+        </p>
+ 
+        <div class="contact-grid">
+ 
+            <div class="contact-card">
+                <h3>Email</h3>
+                <p class="card-label">School</p>
+                <p><a href="mailto:sc36706@georgiasouthern.edu">sc36706@georgiasouthern.edu</a></p>
+                <p class="card-label">Personal</p>
+                <p><a href="mailto:stevencowart2003@gmail.com">stevencowart2003@gmail.com</a></p>
+            </div>
+ 
+            <div class="contact-card">
+                <h3>Phone</h3>
+                <p class="card-label">Call or Text</p>
+                <p><a href="tel:+19122102821">(912) 210-2821</a></p>
+                <p class="card-note">Best for quick messages and follow-ups.</p>
+            </div>
+ 
+            <div class="contact-card">
+                <h3>Find Me Online</h3>
+                <p class="card-label">LinkedIn</p>
+                <p>Coming Soon</p>
+                <p class="card-label">GitHub</p>
+                <p>Coming Soon</p>
+            </div>
+ 
+        </div>
+ 
+        <div class="form-card">
+            <h3>Send Me a Message</h3>
+            <p>Drop me a line and I'll get back to you as soon as I can. Required fields are marked with an asterisk.</p>
+ 
+            <form method="post" action="https://formspree.io/f/mnjoldaj" 
+                  onsubmit="alert('Thank you for the Message! I will get back to you as soon as possible.')">
+ 
+                <div class="form-row">
+                    <div class="form-field">
+                        <label for="myFName">*First Name</label>
+                        <input type="text" id="myFName" name="myFName" required="required">
+                    </div>
+ 
+                    <div class="form-field">
+                        <label for="myLName">*Last Name</label>
+                        <input type="text" id="myLName" name="myLName" required="required">
+                    </div>
+                </div>
+ 
+                <div class="form-row">
+                    <div class="form-field">
+                        <label for="myEmail">*Email</label>
+                        <input type="email" id="myEmail" name="myEmail" required="required">
+                    </div>
+ 
+                    <div class="form-field">
+                        <label for="myPhone">Phone</label>
+                        <input type="text" id="myPhone" name="myPhone">
+                    </div>
+                </div>
+ 
+                <div class="form-field">
+                    <label for="myComments">*Message</label>
+                    <textarea id="myComments" name="myComments" rows="5" required="required"></textarea>
+                    <small id="charCount">0 characters</small>
+                </div>
+ 
+                <input type="submit" value="Send Message">
+ 
+            </form>
+        </div>
+ 
+    </main>
+ 
+    <footer>
+        <p>
+            Copyright &copy; 2026 
+            <em>Steven C. Cowart</em>
+        </p>
+    </footer>
+ 
+</div>
+ 
+</body>
+ 
+<script>
+    function updateCharCount() {
+        const message = document.getElementById("myComments");
+        const counter = document.getElementById("charCount");
+        const length = message.value.length;
+ 
+        counter.textContent = length + " characters";
+ 
+        if (length > 300) {
+            counter.style.color = "#c0392b"; 
+        } else {
+            counter.style.color = "#666";
+        }
+    }
+    document.getElementById("myComments").addEventListener("input", function() {
+        updateCharCount();
+    });
+</script>
+</html>
